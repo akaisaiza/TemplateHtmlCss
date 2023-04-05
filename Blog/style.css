@@ -23,7 +23,7 @@ header{
 .navlist li a{
     color: white;
     margin-left: 60px;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 600;
     border-bottom: 2px solid transparent;
     transition: all .55s ease;
@@ -34,17 +34,12 @@ header{
     font-weight: 700;
     color: white;
 }
-/* body{
-    height: 100%;
-    width: 100%;
-    min-height: 100vh;
-    background: linear-gradient(245.59deg,#647d68 0% ,#779379 28.53% ,#4c664e 75.52%);
-} */
+
 body {
     height: 100%;
     width: 100%;
-    background: linear-gradient(245.59deg,#647d68 0% ,#779379 28.53% ,#4c664e 75.52%);
-    min-height: 100vh;
+    background: linear-gradient(245.59deg,#231e2a 0% ,#140b25 28.53% ,#080010 75.52%);
+    min-height: 1000vh;
     overflow: hidden;
 }
 
@@ -136,4 +131,11 @@ body {
     } to {
         transform: translateY(-2000px);
     }
+}
+
+.contact{
+    border:  1px solid black;
+    top: 20%;
+    left: 40%;
+    
 }
